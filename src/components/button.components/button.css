@@ -1,0 +1,17 @@
+
+.btn{
+  height: 50px;
+  width: 150px;
+  background-color:blueviolet;
+  margin: 10px;
+  border-radius: 15px;
+  border: 10px wheat;
+  cursor: pointer;
+}
+.text-btn{
+    color:pink;
+    cursor: pointer;
+    
+}
+
+    
