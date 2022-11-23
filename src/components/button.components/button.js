@@ -6,7 +6,7 @@ const Button = () =>{
          <button className ='btn' onClick={()=>{
             alert ('A label desse botão é Baixar CV')
          }}>
-            <label className='text-btn'>Baixe aqui CV</label>
+            <label className='text-btn'>Baixar CV</label>
          </button>
             
          
