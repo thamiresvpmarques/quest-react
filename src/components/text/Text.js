@@ -1,13 +1,13 @@
 import './text.css'
 
-const Text = ({color,text}) =>{
+const ColorText = ({color,children}) =>{
   return (
     <div className='styling-text'>
       <h1 className='title'>Título</h1>
-      <p style={{color:color}}>{text.toUpperCase()}</p>
+      <p style={{color:color}}>{children.toUpperCase()}</p>
     </div>
   )
 }
 
 
-export default Text
+export default ColorText
